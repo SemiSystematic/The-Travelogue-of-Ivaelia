@@ -230,20 +230,24 @@
         {
           "name":"The Travelogue of Ivaelia",
           "sorting":"m",
-          "color":"#3162b0",
+          "color":"null",
           "folders": [
             {
               "name":"Additional Content",
               "sorting":"m",
-              "color":"#27e3ae",
+              "color":"null",
               "packs":[
                 "pf2e-travelogue-journals",
                 "pf2e-travelogue-tables"
+              ],
+              "folders":[
+
               ]
-            },{
+            },
+            {
               "name":"Character Creation",
               "sorting":"m",
-              "color":"#e6cd40",
+              "color":"null",
               "packs":[
                 "pf2e-travelogue-ancestries-and-heritages",
                 "pf2e-travelogue-backgrounds",
@@ -251,6 +255,9 @@
                 "pf2e-travelogue-class-archetypes",
                 "pf2e-travelogue-class-features",
                 "pf2e-travelogue-feats"
+              ],
+              "folders":[
+
               ]
             }
           ],
@@ -269,13 +276,6 @@
       "lang":"en",
       "name":"English",
       "path":"lang/en.json",
-      "flags":{}
-    }
-  ],
-  "media":[
-    {
-      "type":"cover",
-      "loop":false,
       "flags":{}
     }
   ]
