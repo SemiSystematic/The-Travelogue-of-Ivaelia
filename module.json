@@ -102,7 +102,7 @@
     {
       "name": "pf2e-travelogue-ivaelian-beastiary",
       "label": "Beastiary",
-      "path": "pf2e-travelogue-ivaelian-beastiary",
+      "path": "packs/pf2e-travelogue-ivaelian-beastiary",
       "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
