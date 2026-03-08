@@ -1,9 +1,9 @@
 {
-  "id": "The-Travelogue-of-Ivaelia",
+  "id": "the-travelogue-of-ivaelia",
   "title": "The Travelogue of Ivaelia",
-  "version": "1.0.0",
-  "manifest":"https://github.com/SemiSystematic/The-Travelogue-of-Ivaelia/releases/latest/download/module.json",
-  "download":"https://github.com/SemiSystematic/The-Travelogue-of-Ivaelia/releases/download/1.0.0/module.zip",
+  "version": "1.0.1",
+  "manifest":"https://github.com/SemiSystematic/the-travelogue-of-ivaelia/releases/latest/download/module.json",
+  "download":"https://github.com/SemiSystematic/the-travelogue-of-ivaelia/releases/download/1.0.1/the-travelogue-of-ivaelia.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -77,8 +77,8 @@
   "packs": [
     {
       "name": "pf2e-travelogue-journals",
-      "label": "Travelogue Journals",
-      "path": "packs/travelogue-journals",
+      "label": "Journals",
+      "path": "packs/pf2e-travelogue-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -88,9 +88,9 @@
       "flags": {}
     },
     {
-      "name": "tables",
+      "name": "pf2e-travelogue-tables",
       "label": "Tables",
-      "path": "packs/tables",
+      "path": "packs/pf2e-travelogue-tables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -101,8 +101,8 @@
     },
     {
       "name": "pf2e-travelogue-beastiary",
-      "label": "The Travelogue Beastiary",
-      "path": "packs/ivaelian-beastiary",
+      "label": "Beastiary",
+      "path": "packs/pf2e-travelogue-beastiary",
       "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -114,7 +114,7 @@
     {
       "name": "pf2e-travelogue-ancestries-and-heritages",
       "label": "Ancestries and Heritages",
-      "path": "packs/ancestries-and-heritages",
+      "path": "packs/pf2e-travelogue-ancestries-and-heritages",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -126,7 +126,7 @@
     {
       "name": "pf2e-travelogue-backgrounds",
       "label": "Backgrounds",
-      "path": "packs/backgrounds",
+      "path": "packs/pf2e-travelogue-backgrounds",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -138,7 +138,7 @@
     {
       "name": "pf2e-travelogue-class-archetypes",
       "label": "Class Archetypes",
-      "path": "packs/class-archetypes",
+      "path": "packs/pf2e-travelogue-class-archetypes",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -150,7 +150,7 @@
     {
       "name": "pf2e-travelogue-class-features",
       "label": "Class Features",
-      "path": "packs/class-features",
+      "path": "packs/pf2e-travelogue-class-features",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -162,7 +162,7 @@
     {
       "name": "pf2e-travelogue-classes",
       "label": "Classes",
-      "path": "packs/classes",
+      "path": "packs/pf2e-travelogue-classes",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -174,7 +174,7 @@
     {
       "name": "pf2e-travelogue-deities",
       "label": "Deities",
-      "path": "packs/deities",
+      "path": "packs/pf2e-travelogue-deities",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -186,7 +186,7 @@
     {
       "name": "pf2e-travelogue-feats",
       "label": "Feats",
-      "path": "packs/feats",
+      "path": "packs/pf2e-travelogue-feats",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -198,7 +198,7 @@
     {
       "name": "pf2e-travelogue-items-and-equipment",
       "label": "Items and Equipment",
-      "path": "packs/items-and-equipment",
+      "path": "packs/pf2e-travelogue-items-and-equipment",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -210,7 +210,7 @@
     {
       "name": "pf2e-travelogue-spells",
       "label": "Spells",
-      "path": "packs/spells",
+      "path": "packs/pf2e-travelogue-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -224,30 +224,45 @@
     {
       "name": "The Travelogue",
       "sorting": "a",
+      "color":"null",
+      "packs":[],
       "folders": [
         {
           "name":"The Travelogue of Ivaelia",
           "sorting":"a",
+          "color":"#3162b0",
           "packs": [
-            "pf2e-travelogue-ancestries-and-heritages",
-            "pf2e-travelogue-backgrounds",
-            "pf2e-travelogue-class-archetypes",
-            "pf2e-travelogue-classes",
-            "pf2e-travelogue-class-features",
             "pf2e-travelogue-deities",
-            "pf2e-travelogue-feats",
             "pf2e-travelogue-beastiary",
             "pf2e-travelogue-items-and-equipment",
-            "pf2e-travelogue-spells",
-            "pf2e-travelogue-tables",
-            "pf2e-travelogue-journals"
+            "pf2e-travelogue-spells"
           ],
-          "color":"null",
-          "folders": []
+          "folders": [
+            {
+              "name":"Character Creation",
+              "sorting":"a",
+              "color":"#e6cd40",
+              "packs":[
+                "pf2e-travelogue-feats",
+                "pf2e-travelogue-classes",
+                "pf2e-travelogue-class-archetypes",
+                "pf2e-travelogue-class-features",
+                "pf2e-travelogue-ancestries-and-heritages",
+                "pf2e-travelogue-backgrounds"
+              ]
+            },
+            {
+              "name":"Additional Content",
+              "sorting":"a",
+              "color":"#27e3ae",
+              "packs":[
+                "pf2e-travelogue-tables",
+                "pf2e-travelogue-journals"
+              ]
+            }
+          ]
         }
-      ],
-      "color":"null",
-      "packs":[]
+      ]
     }
   ],
   "languages": [
