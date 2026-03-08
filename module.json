@@ -1,9 +1,9 @@
 {
   "id": "the-travelogue-of-ivaelia",
   "title": "The Travelogue of Ivaelia",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest":"https://github.com/SemiSystematic/the-travelogue-of-ivaelia/releases/latest/download/module.json",
-  "download":"https://github.com/SemiSystematic/the-travelogue-of-ivaelia/releases/download/1.0.1/the-travelogue-of-ivaelia.zip",
+  "download":"https://github.com/SemiSystematic/the-travelogue-of-ivaelia/releases/download/1.0.2/the-travelogue-of-ivaelia.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -223,41 +223,41 @@
   "packFolders": [
     {
       "name": "The Travelogue",
-      "sorting": "a",
+      "sorting": "m",
       "color":"null",
       "packs":[],
       "folders": [
         {
           "name":"The Travelogue of Ivaelia",
-          "sorting":"a",
+          "sorting":"m",
           "color":"#3162b0",
           "packs": [
-            "pf2e-travelogue-deities",
             "pf2e-travelogue-beastiary",
+            "pf2e-travelogue-deities",
             "pf2e-travelogue-items-and-equipment",
             "pf2e-travelogue-spells"
           ],
           "folders": [
             {
               "name":"Character Creation",
-              "sorting":"a",
+              "sorting":"m",
               "color":"#e6cd40",
               "packs":[
-                "pf2e-travelogue-feats",
+                "pf2e-travelogue-ancestries-and-heritages",
+                "pf2e-travelogue-backgrounds",
                 "pf2e-travelogue-classes",
                 "pf2e-travelogue-class-archetypes",
                 "pf2e-travelogue-class-features",
-                "pf2e-travelogue-ancestries-and-heritages",
-                "pf2e-travelogue-backgrounds"
+                "pf2e-travelogue-feats"
               ]
             },
             {
               "name":"Additional Content",
-              "sorting":"a",
+              "sorting":"m",
               "color":"#27e3ae",
               "packs":[
-                "pf2e-travelogue-tables",
-                "pf2e-travelogue-journals"
+                "pf2e-travelogue-journals",
+                "pf2e-travelogue-tables"
               ]
             }
           ]
