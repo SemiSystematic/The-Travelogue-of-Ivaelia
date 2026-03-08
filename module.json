@@ -100,9 +100,9 @@
       "flags": {}
     },
     {
-      "name": "pf2e-travelogue-beastiary",
+      "name": "pf2e-travelogue-ivaelian-beastiary",
       "label": "Beastiary",
-      "path": "packs/pf2e-travelogue-beastiary",
+      "path": "pf2e-travelogue-ivaelian-beastiary",
       "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -231,14 +231,16 @@
           "name":"The Travelogue of Ivaelia",
           "sorting":"m",
           "color":"#3162b0",
-          "packs": [
-            "pf2e-travelogue-beastiary",
-            "pf2e-travelogue-deities",
-            "pf2e-travelogue-items-and-equipment",
-            "pf2e-travelogue-spells"
-          ],
           "folders": [
             {
+              "name":"Additional Content",
+              "sorting":"m",
+              "color":"#27e3ae",
+              "packs":[
+                "pf2e-travelogue-journals",
+                "pf2e-travelogue-tables"
+              ]
+            },{
               "name":"Character Creation",
               "sorting":"m",
               "color":"#e6cd40",
@@ -250,16 +252,13 @@
                 "pf2e-travelogue-class-features",
                 "pf2e-travelogue-feats"
               ]
-            },
-            {
-              "name":"Additional Content",
-              "sorting":"m",
-              "color":"#27e3ae",
-              "packs":[
-                "pf2e-travelogue-journals",
-                "pf2e-travelogue-tables"
-              ]
             }
+          ],
+          "packs": [
+            "pf2e-travelogue-ivaelian-beastiary",
+            "pf2e-travelogue-deities",
+            "pf2e-travelogue-items-and-equipment",
+            "pf2e-travelogue-spells"
           ]
         }
       ]
